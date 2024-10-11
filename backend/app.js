@@ -9,7 +9,6 @@ const products = require('./routes/product');
 const orders = require('./routes/order');
 
 connectdb();
-
 app.use(express.json());
 
 app.use('/api/v1/',products);

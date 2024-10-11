@@ -1,7 +1,7 @@
 const mongoose =require('mongoose');
 
 const orderschema = new mongoose.Schema({
-    cartitem:Array,
+    cartitems:Array,
     amount:String,
     status:String,
     createat: Date
